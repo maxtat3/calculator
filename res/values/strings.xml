@@ -23,4 +23,5 @@
 	<string name="btn_multiply">*</string>
 	<string name="btn_divide">/</string>
 	<string name="btn_changeOrientation">#</string>
+	<string name="about_app">Простой калькулятор для ОС android.</string>
 </resources>

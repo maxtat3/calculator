@@ -31,6 +31,6 @@
 	</item>
 
 	<item
-			android:id="@+id/inform_app"
+			android:id="@+id/about_app"
 			android:title="О программе"/>
 </menu>

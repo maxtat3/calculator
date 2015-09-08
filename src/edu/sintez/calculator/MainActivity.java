@@ -1,6 +1,7 @@
 package edu.sintez.calculator;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.view.Menu;
@@ -52,6 +53,9 @@ public class MainActivity extends Activity {
 			case R.id.item_test_3:
 				System.out.println("this is test menu 3");
 				break;
+			case R.id.about_app:
+				Intent aboutApp = new Intent(this, AboutActivity.class);
+				startActivity(aboutApp);
 			default:
 				System.out.println("not choose any menu");
 				break;
