@@ -7,5 +7,6 @@
 
 	<color name="orange">#FF6600</color>
 	<color name="blue">#0099ff</color>
-	<color name="green">#33ff00</color>
+	<color name="green">#33cc00</color>
+	<color name="green_bright">#33ff00</color>
 </resources>

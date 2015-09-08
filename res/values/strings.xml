@@ -22,5 +22,5 @@
 	<string name="btn_minus">-</string>
 	<string name="btn_multiply">*</string>
 	<string name="btn_divide">/</string>
-	<string name="btn_changeOrientation">Change orientation</string>
+	<string name="btn_changeOrientation">#</string>
 </resources>
