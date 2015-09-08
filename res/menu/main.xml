@@ -5,4 +5,32 @@
 			android:orderInCategory="100"
 			android:showAsAction="never"
 			android:title="@string/action_settings"/>
+
+	<item
+			android:id="@+id/item_test_1"
+			android:title="ItemTest1"/>
+
+	<item
+			android:id="@+id/item_test_2"
+			android:title="ItemTest2"/>
+	<item
+			android:id="@+id/item_test_3"
+			android:title="ItemTest3"/>
+
+	<item
+		android:id="@+id/menu_styles"
+		android:title="Стили">
+		<menu>
+			<item
+				android:id="@+id/subMenu_classic"
+				android:title="Классический"/>
+			<item
+				android:id="@+id/subMenu_modern"
+				android:title="Modern"/>
+		</menu>
+	</item>
+
+	<item
+			android:id="@+id/inform_app"
+			android:title="О программе"/>
 </menu>
