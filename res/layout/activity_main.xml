@@ -2,6 +2,7 @@
 				xmlns:tools="http://schemas.android.com/tools"
 				android:layout_width="match_parent"
 				android:layout_height="match_parent"
+				android:background="@color/background"
 				android:paddingBottom="@dimen/activity_vertical_margin"
 				android:paddingLeft="@dimen/activity_horizontal_margin"
 				android:paddingRight="@dimen/activity_horizontal_margin"
@@ -16,8 +17,13 @@
 			android:layout_marginEnd="30dp"
 			android:layout_marginStart="30dp"
 			android:layout_marginTop="55dp"
+			android:background="@drawable/shape_display_color"
 			android:ems="10"
-			android:textSize="36sp" />
+			android:gravity="center_vertical|center_horizontal"
+			android:textAlignment="center"
+			android:textColor="@color/grey_gentle"
+			android:textSize="36sp"
+			android:textStyle="bold" />
 
 	<Button
 			android:id="@+id/btn_1"
@@ -26,9 +32,11 @@
 			android:layout_alignLeft="@+id/display"
 			android:layout_below="@+id/display"
 			android:layout_marginTop="78dp"
+			android:background="@drawable/sel_btn_green"
 			android:fontFamily="Arial"
 			android:onClick="buttonClicked"
 			android:text="@string/btn_1"
+			android:textColor="@color/white"
 			android:textSize="36sp" />
 
 	<Button
@@ -38,8 +46,10 @@
 			android:layout_alignBottom="@+id/btn_1"
 			android:layout_marginLeft="44dp"
 			android:layout_toRightOf="@+id/btn_1"
+			android:background="@drawable/sel_btn_green"
 			android:onClick="buttonClicked"
 			android:text="@string/btn_2"
+			android:textColor="@color/white"
 			android:textSize="36sp" />
 
 	<Button
@@ -50,8 +60,10 @@
 			android:layout_alignBottom="@+id/btn_2"
 			android:layout_marginLeft="51dp"
 			android:layout_toRightOf="@+id/btn_2"
+			android:background="@drawable/sel_btn_green"
 			android:onClick="buttonClicked"
 			android:text="@string/btn_3"
+			android:textColor="@color/white"
 			android:textSize="36sp" />
 
 	<Button
@@ -61,8 +73,10 @@
 			android:layout_alignLeft="@+id/btn_1"
 			android:layout_below="@+id/btn_1"
 			android:layout_marginTop="43dp"
+			android:background="@drawable/sel_btn_green"
 			android:onClick="buttonClicked"
 			android:text="@string/btn_4"
+			android:textColor="@color/white"
 			android:textSize="36sp" />
 
 	<Button
@@ -72,10 +86,11 @@
 			android:layout_alignBaseline="@+id/btn_4"
 			android:layout_alignBottom="@+id/btn_4"
 			android:layout_alignLeft="@+id/btn_2"
+			android:background="@drawable/sel_btn_green"
 			android:onClick="buttonClicked"
 			android:text="@string/btn_5"
+			android:textColor="@color/white"
 			android:textSize="36sp" />
-
 
 	<Button
 			android:id="@+id/btn_6"
@@ -84,8 +99,10 @@
 			android:layout_alignBaseline="@+id/btn_5"
 			android:layout_alignBottom="@+id/btn_5"
 			android:layout_alignLeft="@+id/btn_3"
+			android:background="@drawable/sel_btn_green"
 			android:onClick="buttonClicked"
 			android:text="@string/btn_6"
+			android:textColor="@color/white"
 			android:textSize="36sp" />
 
 	<Button
@@ -95,8 +112,10 @@
 			android:layout_alignLeft="@+id/btn_4"
 			android:layout_below="@+id/btn_4"
 			android:layout_marginTop="45dp"
+			android:background="@drawable/sel_btn_green"
 			android:onClick="buttonClicked"
 			android:text="@string/btn_7"
+			android:textColor="@color/white"
 			android:textSize="36sp" />
 
 	<Button
@@ -106,8 +125,10 @@
 			android:layout_alignBaseline="@+id/btn_7"
 			android:layout_alignBottom="@+id/btn_7"
 			android:layout_alignLeft="@+id/btn_5"
+			android:background="@drawable/sel_btn_green"
 			android:onClick="buttonClicked"
 			android:text="@string/btn_8"
+			android:textColor="@color/white"
 			android:textSize="36sp" />
 
 	<Button
@@ -116,7 +137,9 @@
 			android:layout_height="wrap_content"
 			android:layout_alignBottom="@+id/btn_8"
 			android:layout_alignLeft="@+id/btn_6"
+			android:background="@drawable/sel_btn_green"
 			android:text="@string/btn_9"
+			android:textColor="@color/white"
 			android:textSize="36sp" />
 
 	<Button
@@ -126,8 +149,10 @@
 			android:layout_alignLeft="@+id/btn_7"
 			android:layout_below="@+id/btn_7"
 			android:layout_marginTop="51dp"
+			android:background="@drawable/sel_btn_green"
 			android:onClick="buttonClicked"
 			android:text="@string/btn_0"
+			android:textColor="@color/white"
 			android:textSize="36sp" />
 
 	<Button
@@ -137,8 +162,10 @@
 			android:layout_alignBaseline="@+id/btn_6"
 			android:layout_alignBottom="@+id/btn_6"
 			android:layout_alignRight="@+id/display"
+			android:background="@drawable/shape_btn_normal_blue"
 			android:onClick="buttonClicked"
 			android:text="@string/btn_minus"
+			android:textColor="@color/white"
 			android:textSize="36sp" />
 
 	<Button
@@ -148,8 +175,10 @@
 			android:layout_alignBaseline="@+id/btn_9"
 			android:layout_alignBottom="@+id/btn_9"
 			android:layout_alignLeft="@+id/btn_minus"
+			android:background="@drawable/shape_btn_normal_blue"
 			android:onClick="buttonClicked"
 			android:text="@string/btn_multiply"
+			android:textColor="@color/white"
 			android:textSize="36sp" />
 
 	<Button
@@ -158,8 +187,10 @@
 			android:layout_height="wrap_content"
 			android:layout_alignBottom="@+id/btn_equals"
 			android:layout_alignLeft="@+id/btn_multiply"
+			android:background="@drawable/shape_btn_normal_blue"
 			android:onClick="buttonClicked"
 			android:text="@string/btn_divide"
+			android:textColor="@color/white"
 			android:textSize="36sp" />
 
 	<Button
@@ -168,8 +199,10 @@
 			android:layout_height="wrap_content"
 			android:layout_above="@+id/btn_4"
 			android:layout_alignLeft="@+id/btn_minus"
+			android:background="@drawable/shape_btn_normal_blue"
 			android:onClick="buttonClicked"
 			android:text="@string/btn_plus"
+			android:textColor="@color/white"
 			android:textSize="36sp" />
 
 	<Button
@@ -179,8 +212,10 @@
 			android:layout_alignBaseline="@+id/btn_equals"
 			android:layout_alignBottom="@+id/btn_equals"
 			android:layout_toLeftOf="@+id/btn_3"
+			android:background="@drawable/shape_btn_normal_blue"
 			android:onClick="buttonClicked"
 			android:text="@string/btn_dot"
+			android:textColor="@color/white"
 			android:textSize="36sp" />
 
 	<Button
@@ -190,8 +225,10 @@
 			android:layout_alignBaseline="@+id/btn_0"
 			android:layout_alignBottom="@+id/btn_0"
 			android:layout_centerHorizontal="true"
+			android:background="@drawable/shape_btn_normal_orange"
 			android:onClick="buttonClicked"
 			android:text="@string/btn_clear"
+			android:textColor="@color/white"
 			android:textSize="36sp" />
 
 	<Button
@@ -202,8 +239,10 @@
 			android:layout_alignBottom="@+id/btn_clear"
 			android:layout_marginLeft="48dp"
 			android:layout_toRightOf="@+id/btn_9"
+			android:background="@drawable/shape_btn_normal_greenfull"
 			android:onClick="buttonClicked"
 			android:text="@string/btn_equals"
+			android:textColor="@color/white"
 			android:textSize="36sp" />
 
 	<Button
@@ -219,4 +258,3 @@
 			android:textSize="18sp" />
 
 </RelativeLayout>
-
