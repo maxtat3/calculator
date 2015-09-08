@@ -7,6 +7,7 @@
 				android:paddingLeft="@dimen/activity_horizontal_margin"
 				android:paddingRight="@dimen/activity_horizontal_margin"
 				android:paddingTop="@dimen/activity_vertical_margin"
+				android:background="@drawable/background"
 				tools:context=".MainActivity" >
 
 	<EditText
@@ -17,7 +18,7 @@
 			android:layout_marginEnd="30dp"
 			android:layout_marginStart="30dp"
 			android:layout_marginTop="55dp"
-			android:background="@drawable/btn_round_press"
+			android:background="@drawable/button_press"
 			android:ems="10"
 			android:textColor="@color/green"
 			android:textSize="36sp"
